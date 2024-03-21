@@ -507,6 +507,20 @@ header {
     font-size: 1.2rem;
 }
 
+.social .icon{
+    width: 24px;
+    height: 24px;
+}
+
+.social .f{
+    border-radius: 40%;
+}
+
+.social .s{
+    width: 34px;
+    height: 34px;
+}
+
 .footer_mail, .footer_info{
     display: flex;
     flex-direction: column;
@@ -800,5 +814,15 @@ header {
     font-size: 1rem;
     line-height: 15px;
    }
+
+.social{
+    width: 100%;
+}
+   
+.social .icon{
+    padding-top: 5px;
+    width: 16px;
+    height: 16px;
+}
 
 }
